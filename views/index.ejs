@@ -1,0 +1,11 @@
+<%- include('partials/header') %>
+    <h3>Index</h3>
+    <nav>
+        <ul>
+            <% for (const game of locals.games) { %>
+                <li><a href="/game/<%= game.name%>">PLAY <%= (game.name).toUpperCase() %></a></li>
+            <% }; %>
+        </ul>
+    </nav>
+<%- include('partials/footer') %>
+

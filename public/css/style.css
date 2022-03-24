@@ -1,0 +1,132 @@
+/** reset **/
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* True Styling */
+  
+  header {
+    background: rgb(88, 87, 87) center / cover no-repeat url(/images/boardgames.jpg) ;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-family: fantasy;
+    font-size: 5rem;
+    padding: 10px;
+    text-align: center;
+    color: white!important;
+    background: rgba(100,100,100,0.8);
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.5), 0px 0px 10px rgba(0,0,0,0.5), 0px 0px 10px rgba(0,0,0,0.5);
+  }
+  
+  header nav{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+  }
+  
+  header nav ul {
+    background: rgba(255,255,255,0.8);
+    color: gb(243, 205, 18);
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    height: 50px;
+  }
+  
+  header nav ul li {
+    text-align:center;
+    padding: 15px;
+    transition: all ease .5s;
+    font-size: 1rem;
+  }
+  
+  header nav ul li:hover {
+    font-size: 1.2rem;
+    text-shadow: 0px 10px 4px rgba(0,0,0,0.5);
+  }
+  
+  h3 {
+    text-align: center;
+    line-height: 3rem;
+  }
+  
+  .fullscreen{
+    background-image: url(https://files.muzli.space/43e6e439756832db0ff5dd2b76ffef5c.jpeg);
+    background-size: contain;
+    background-position:center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+  }
+  
+  .search-box{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+  }
+  
+  .search-box-field{
+    border-left: solid 1px rgba(0,0,0,0.7);
+    border-top: solid 1px rgba(0,0,0,0.7);
+    border-bottom: solid 1px rgba(0,0,0,0.7);
+    border-right: none;
+    border-radius: .5em 0em 0em .5em;
+    padding: 0.3em;
+    font-size: 1em;
+  }
+  
+  .search-box-btn{
+    border-left: none;
+    border-top: solid 1px rgba(0,0,0,0.7);
+    border-bottom: solid 1px rgba(0,0,0,0.7);
+    border-right: solid 1px rgba(0,0,0,0.7);
+    padding: 0.2em;
+    border-radius: 0em .5em .5em 0em;
+    background-color: #f0f;
+    transform: translateY(1px);
+  }
+  
+  .login-box{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align:center;
+  }
+  
+  .login-box-field{
+    border: solid 1px rgba(0,0,0,0.7);
+    border-radius: .5em;
+    padding: 0.3em;
+    font-size: 1em;
+    display:block;
+    margin: 0 auto;
+    margin-bottom: 1em;
+  }
+  
+  .login-box-btn{
+    border: solid 1px rgba(0,0,0,0.7);
+    padding: 0.2em;
+    border-radius: .5em;
+    background-color: #f0f;
+    transform: translateY(1px);
+  }
+  
+  .error{
+    border: solid 1px #f0f;
+    border-radius: .5em;
+    background: rgba(255, 0, 255, 0.61);
+    color: white;
+    padding: 1em;
+    margin-bottom: 1em;
+  }

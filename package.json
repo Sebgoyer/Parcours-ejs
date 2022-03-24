@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  },
+  "name": "gamehub",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sebgoyer/Parcours-ejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sebgoyer/Parcours-ejs/issues"
+  },
+  "homepage": "https://github.com/Sebgoyer/Parcours-ejs#readme",
+  "description": ""
+}

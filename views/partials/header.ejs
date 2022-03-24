@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>GameHub</title>
+  <link rel="stylesheet" href="/css/style.css">
+    <% if (locals.request === 'grunt') { %>
+        <link rel="stylesheet" href="/css/grunt.css">
+    <% } else if(locals.request === 'diceRoller') { %>
+        <link rel="stylesheet" href="/css/diceRoller.css">
+    <% } %>   
+</head>
+
+<body>
+  <header>
+    <h1>
+      <a href="/">GameHub</a>
+    </h1>
+    <nav>
+    </nav>
+  </header>
+
+  <main>
